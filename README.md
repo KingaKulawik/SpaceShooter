@@ -17,11 +17,11 @@ Gracz wygrywa, gdy zbierze wszystkie cząsteczki antymaterii z planszy.
 Gracz przegrywa, gdy zostanie trafiony przez kometę lub zderzy się z gwiazdą.
 
 ### Ekran gry
-Gra wyświetla się w terminalu za pomocą biblioteki ncurses
-Statek gracza reprezentowany jest przez symbol ^
-Antymateria jest reprezentowana przez symbol .
-Kometę reprezentuje symbol *
-Gwiazdy strzelające kometami są reprezentowane przez symbol O
+- Gra wyświetla się w terminalu za pomocą biblioteki ncurses.
+- Statek gracza reprezentowany jest przez symbol `^`.
+- Antymateria jest reprezentowana przez symbol `..`.
+- Kometę reprezentuje symbol `*`.
+- Gwiazdy strzelające kometami są reprezentowane przez symbol `O`.
 
 ### Wątki w programie
 Statek kosmiczny (gracz)
