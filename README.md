@@ -17,6 +17,7 @@ Gracz wygrywa, gdy zbierze wszystkie cząsteczki antymaterii z planszy.
 Gracz przegrywa, gdy zostanie trafiony przez kometę lub zderzy się z gwiazdą.
 
 ## Ekran gry
+![442727245_425669253678432_6997441707904061640_n](https://github.com/KingaKulawik/SpaceShooter/assets/96589217/a8372999-d17b-498a-a1a6-e10847a7f461)
 - Gra wyświetla się w terminalu za pomocą biblioteki ncurses.
 - Statek gracza reprezentowany jest przez symbol `^`.
 - Antymateria jest reprezentowana przez symbol `..`.
