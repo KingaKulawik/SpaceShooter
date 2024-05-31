@@ -23,15 +23,16 @@ Gracz przegrywa, gdy zostanie trafiony przez kometę lub zderzy się z gwiazdą.
 - Kometę reprezentuje symbol `*`.
 - Gwiazdy strzelające kometami są reprezentowane przez symbol `O`.
 
-### Wątki w programie
-Statek kosmiczny (gracz)
-Wątek odpowiedzialny za poruszanie statkiem kosmicznym po planszy. 
-Obsługuje on wciśnięcia klawiszy przez gracza i na ich podstawie aktualizuje pozycję statku na planszy. Wątek ten sprawdza również, czy statek nie trafił na kometę, co kończy grę.
+## Wątki w programie
+- **Statek kosmiczny (gracz)**
+  - Wątek odpowiedzialny za poruszanie statkiem kosmicznym po planszy.
+  - Obsługuje on wciśnięcia klawiszy przez gracza i na ich podstawie aktualizuje pozycję statku na planszy.
+  - Wątek ten sprawdza również, czy statek nie trafił na kometę, co kończy grę.
 
-Komet
-Każda gwiazda strzela kometami w losowych kierunkach. 
-Wątki te poruszają kometami po planszy, sprawdzając, czy kometa nie trafiła w statek kosmiczny lub nie zniknęła poza granicami planszy. 
-Jeśli kometa trafi statek, gra się kończy.
+- **Komet (strzelanie)**
+  - Każda gwiazda strzela kometami w losowych kierunkach.
+  - Wątki te poruszają kometami po planszy, sprawdzając, czy kometa nie trafiła w statek kosmiczny lub nie zniknęła poza granicami planszy.
+  - Jeśli kometa trafi statek, gra się kończy.
 
 ### Sekcje krytyczne
 Kontrola nad sekcjami krytycznymi w grze jest realizowana za pomocą mutexów. 
