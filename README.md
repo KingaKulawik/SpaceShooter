@@ -6,7 +6,7 @@
 5. [Sekcje krytyczne](#sekcje-krytyczne)
 6. [Uruchomienie gry](#uruchomienie-gry)
 
-### O projekcie
+## O projekcie
 Założeniem projektu było stworzenie gry typu Galaxy Voyager, wyświetlającej się w terminalu i wykorzystującej do działania mechanizm wielowątkowości.
 Gracz wciela się w pilota statku kosmicznego, którego zadaniem jest zebranie wszystkich cząsteczek antymaterii w galaktyce, jednocześnie unikając komet i gwiazd.
 
